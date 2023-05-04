@@ -42,14 +42,11 @@ public class HW1 {
 
 //        Task 5
 
-        /*
         int q = 160;
         int w = 80;
         int a = q % w;
         int b = q / w;
         System.out.println(q + " / " + w + " = " + b + " и " + a + " в остатке");
-         */
-
     }
 }
 
