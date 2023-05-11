@@ -13,7 +13,7 @@ public class CreditCard {
     }
 
 
-    public CreditCard(int accountNumber, int amountAccount) {
+    public CreditCard(long accountNumber, long amountAccount) {
         this.accountNumber = accountNumber;
         this.amountAccount = amountAccount;
     }
@@ -23,7 +23,11 @@ public class CreditCard {
         return amountAccount - sum1;
     }
 
-    void infoCard() {
-        System.out.println(accountNumber + " " + amountAccount);
+     String infoNumber() {
+        return "Ваш номер карты: " + this.accountNumber + "\n";
+    }
+
+    String infoScore () {
+        return "Ваш счет: " + this.amountAccount + "\n";
     }
 }
