@@ -11,7 +11,5 @@ public class MainCreditCard {
         System.out.println(creditCard1.infoNumber() + creditCard1.infoScore());
         System.out.println(creditCard2.infoNumber() + creditCard2.infoScore());
         System.out.println(creditCard3.infoNumber() + creditCard3.infoScore());
-
     }
-
 }
