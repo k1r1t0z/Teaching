@@ -1,6 +1,6 @@
 package LessonTask;
 
-public class mainCreditCard {
+public class MainCreditCard {
     public static void main(String[] args) {
         CreditCard creditCard1 = new CreditCard(4255456798081232l, 120);
         CreditCard creditCard2 = new CreditCard(5314987443567321l, 87);
