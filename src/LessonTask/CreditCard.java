@@ -13,8 +13,12 @@ public class CreditCard {
         return sum + amountAccount;
     }
 
-    long takeOff(long sum1) {
-        return amountAccount - sum1;
+    void takeOff(int sum1) {
+        if (sum1 < amountAccount){
+            long result = amountAccount - sum1;
+        } else {
+            System.out.println("Недостаточно средств");
+        }
     }
 
     String infoNumber() {
