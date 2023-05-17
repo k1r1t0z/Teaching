@@ -1,4 +1,4 @@
-package LessonTask;
+package LessonTask6;
 
 public class MainCreditCard {
     public static void main(String[] args) {
