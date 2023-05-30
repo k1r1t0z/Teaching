@@ -5,6 +5,5 @@ public class Main {
         Patient patient = new Patient(1);
         Therapist therapist = new Therapist();
         therapist.helpPlan(patient);
-
     }
 }
