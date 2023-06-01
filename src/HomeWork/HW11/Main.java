@@ -1,5 +1,6 @@
 package HomeWork.HW11;
 
+import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
@@ -7,8 +8,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String one = scanner.nextLine();
-        /*String two = scanner.nextLine();
+        /*String one = scanner.nextLine();
+        String two = scanner.nextLine();
         String three = scanner.nextLine();*/
         // TASK1
         /*int[] array = {one.length(), two.length(), three.length()};
@@ -36,10 +37,13 @@ public class Main {
         System.out.println(Arrays.toString(array));*/
 
         // TASK 5
-        String str = "";
+        /*String str = "";
         for (int i = 0; i < one.length(); i++) {
             str = str.concat(one.charAt(i) + "" + one.charAt(i));
         }
-        System.out.println(str);
+        System.out.println(str);*/
+
+        // TASK 6
+        StringBuilder stringBuilder = new StringBuilder("No lemon, no melon");
     }
 }
